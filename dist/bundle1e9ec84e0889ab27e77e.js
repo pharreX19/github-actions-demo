@@ -24,6 +24,8 @@ var dayOfTheWeek = function dayOfTheWeek() {
 };
 try {
   document.getElementById('day').innerText = dayOfTheWeek();
+  var laugh = document.getElementById('laughImg');
+  laugh.src = _assets_laughing_svg__WEBPACK_IMPORTED_MODULE_2__;
 } catch (ex) {}
 module.exports.dayOfTheWeek = dayOfTheWeek;
 
@@ -713,4 +715,4 @@ module.exports = __webpack_require__.p + "laughing.svg";
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=bundle99b589347069b5b62bda.js.map
+//# sourceMappingURL=bundle1e9ec84e0889ab27e77e.js.map
